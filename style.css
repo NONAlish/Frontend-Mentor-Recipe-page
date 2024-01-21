@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+
+body{
+    background-color: #F3E5D7;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 736px;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    background: var(--White, #FFF);
+}
+img{
+    width: 656px;
+}
+
+div, img{
+    border-radius: 12px;
+}
+h2{
+    margin-top: 20px;
+}
+
+.wrapper {
+
+display: flex;
+width: 656px;
+padding: 40px;
+flex-direction: column;
+align-items: flex-start;
+gap: 40px;
+}
+
+
+header h1{
+    color: var(--Dark-Charcoal, #312E2C);
+    /* Heading L */
+    font-family: "Young Serif";
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 2.5rem */
+}
+
+header p{
+    align-self: stretch;
+    color: var(--Wenge-Brown, #5F564D);
+    /* Body (Regular) */
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 1.5rem */
+}
+
+.preparetion_time {
+    display: flex;
+padding: 1.75rem;
+flex-direction: column;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+background-color: #FFF7FB;
+}
+
+.preparetion_time p{
+    color: var(--Dark-Raspberry, #7A284E);
+    align-self: stretch;
+/* Heading S */
+font-family: Outfit;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 1.25rem */
+}
+.preparetion_time ul{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+.preparetion_time li{
+    color: var(--Wenge-Brown, #5F564D);
+
+/* Body (Regular) */
+font-family: Outfit;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.5rem */
+flex: 1 0 0;
+}
+.preparetion_time .total{
+    color: var(--Wenge-Brown, #5F564D);
+
+/* Body (Regular) */
+font-family: Outfit;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 1.5rem */
+flex: 1 0 0;
+}
+
+
+.ingredients{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 1.5rem;
+align-self: stretch;
+}
+
+.ingredients h2{
+    color: var(--Brandy-Red, #854632);
+
+/* Heading M */
+font-family: "Young Serif";
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 1.75rem */
+}
+
+.ingredients ul {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.ingredients li{
+    color: var(--Wenge-Brown, #5F564D);
+
+/* Body (Regular) */
+font-family: Outfit;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.5rem */
+flex: 1 0 0;
+}
+
+
+
+
+.instructions h2{
+    color: var(--Brandy-Red, #854632);
+
+/* Heading M */
+font-family: "Young Serif";
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 1.75rem */
+align-self: stretch;
+}
+
+
+.instructions ol{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 0.5rem;
+align-self: stretch;
+}
+
+.instructions li{
+    color: var(--Wenge-Brown, #5F564D);
+
+/* Body (Regular) */
+font-family: Outfit;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 1.5rem */
+flex: 1 0 0;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.instructions h2{
+    color: var(--Brandy-Red, #854632);
+
+/* Heading M */
+font-family: "Young Serif";
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 1.75rem */
+}
+
+.instructions ol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+    display: flex;
+padding-left: 0.5rem;
+align-items: flex-start;
+gap: 1rem;
+align-self: stretch;
+}
+.instructions li{
+    color: var(--Wenge-Brown, #5F564D);
+
+/* Body (Regular) */
+font-family: Outfit;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+margin-left: 2rem;
+}
+
+ol li::marker {
+    color: var(--Brandy-Red, #854632);
+
+    /* Body (Bold) */
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 1.5rem */
+    width: 1rem;
+  }
+
+.instructions .instruction{
+    color: var(--Wenge-Brown, #5F564D);
+
+    /* Body (Regular) */
+    font-family: Outfit;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+
+.nutriton{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+align-self: stretch;
+}
+
+.nutriton h2{
+    color: var(--Brandy-Red, #854632);
+
+/* Heading M */
+font-family: "Young Serif";
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 28px */
+align-self: stretch;
+}
+
+.nutriton p{
+    color: var(--Wenge-Brown, #5F564D);
+
+/* Body (Regular) */
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+align-self: stretch;
+}
+
+.nutriton > div{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.nutriton p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nutriton table .weight{
+    color: var(--Brandy-Red, #854632);
+
+/* Body (Bold) */
+font-family: Outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 24px */
+flex: 1 0 0;
+padding-left: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Добавлено для отступа между таблицей и следующим элементом */
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Линии между строками */
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
